@@ -17,6 +17,7 @@ int main(int ac, char** av)
         exit(1);
     }
     window win(width, height);
+    win.loop(0);
     return 0;
 }
 
